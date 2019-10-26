@@ -1,9 +1,9 @@
-import $ from 'jquery';
 import 'bootstrap';
 import '../styles/main.scss';
+import cowList from './components/cowList/cowList';
 
 const init = () => {
-  $('#myBtn').click();
+  cowList.buildCows();
 };
 
 init();
